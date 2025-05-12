@@ -1,0 +1,43 @@
+# Eclipse specific files
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+
+# STS (Spring Tool Suite) specific
+.springBeans
+
+# Maven specific
+target/
+
+# Gradle specific
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+
+# IntelliJ IDEA (if used occasionally)
+*.iml
+.idea/
+out/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Other
+bin/
+tmp/
