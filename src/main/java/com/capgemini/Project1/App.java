@@ -10,7 +10,7 @@ public class App {
  // Insert one row 
  Session session = factory.openSession(); 
  session.beginTransaction(); 
- User user = new User("Manish Jain"); 
+ User user = new User("Manisha Jain"); 
  session.persist(user); 
  session.getTransaction().commit(); 
  session.close(); 
